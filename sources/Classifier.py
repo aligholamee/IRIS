@@ -29,8 +29,9 @@ from sklearn.svm import SVC
 dataset = pandas.read_csv(cc.iris_url, names = cc.names)
 
 # Get some information of dataset
-print("Data Shape is: " + dataset.shape)
+print("Data Shape is: ", dataset.shape)
 
 # Get the first 20 rows of data
-print("Let's take a look at our data" + dataset.head(20))
+print("Let's take a look at our data")
+print(dataset.head(20))
 
