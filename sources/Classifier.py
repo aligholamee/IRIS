@@ -48,4 +48,4 @@ print(dataset.groupby('class').size())
 
 # Display the histogram diagram
 dataset.hist()
-plt.show
+plt.show()
