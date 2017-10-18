@@ -29,9 +29,15 @@ from sklearn.svm import SVC
 dataset = pandas.read_csv(cc.iris_url, names = cc.names)
 
 # Get some information of dataset
-print("Data Shape is: ", dataset.shape)
+print("\nData Shape is: ", dataset.shape)
 
 # Get the first 20 rows of data
-print("Let's take a look at our data")
+print("\nLet's take a look at our data\n")
 print(dataset.head(20))
 
+# Describe the dataset
+print("\nLet's describe this dataset\n")
+print(dataset.describe())
+
+# Get the class distribution of this dataset
+print(dataset.groupby('class').size())
