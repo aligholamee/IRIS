@@ -15,10 +15,10 @@ from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 
-model = []
-model.append(("LR", LogisticRegression()))
-model.append(("LDA", LinearDiscriminantAnalysis()))
-model.append(("KNN", KNeighborsClassifier()))
-model.append(("CART", DecisionTreeClassifier()))
-model.append(("NB", GaussianNB()))
-model.append(("SVM", SVC()))
+models = []
+models.append(("LR", LogisticRegression()))
+models.append(("LDA", LinearDiscriminantAnalysis()))
+models.append(("KNN", KNeighborsClassifier()))
+models.append(("CART", DecisionTreeClassifier()))
+models.append(("NB", GaussianNB()))
+models.append(("SVM", SVC()))
