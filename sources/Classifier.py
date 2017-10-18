@@ -50,5 +50,14 @@ print(dataset.groupby('class').size())
 # dataset.hist()
 # plt.show()
 
-scatter_matrix(dataset)
-plt.show()
+# scatter_matrix(dataset)
+# plt.show()
+
+splitter_array = dataset.values
+print("\n\n\n\n")
+X = splitter_array[:, 0:4]
+y = splitter_array[:, 4]
+
+ValidationSize = 0.2
+seed = 7
+X_Train, X_Validation, Y_Train, Y_Validation = model_selection.train_test_split(X, Y, test_size=ValidationSize, random_state=seed)
