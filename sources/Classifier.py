@@ -47,5 +47,8 @@ print(dataset.groupby('class').size())
 # plt.show()
 
 # Display the histogram diagram
-dataset.hist()
+# dataset.hist()
+# plt.show()
+
+scatter_matrix(dataset)
 plt.show()
