@@ -41,3 +41,7 @@ print(dataset.describe())
 
 # Get the class distribution of this dataset
 print(dataset.groupby('class').size())
+
+# Display the box and whiskers plots
+dataset.plot(kind='box', subplots=True, layout=(2, 2), sharex=False, sharey=False)
+plt.show()
