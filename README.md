@@ -22,4 +22,3 @@ A Multi-Nominal Classification of Iris Dataset.
 * Scikit-Learn Linear-Discriminant Analayser
 * Scikit-Learn Gaussian Naive-Bayes
 * Scikit-Learn SVC
-

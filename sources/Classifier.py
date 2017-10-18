@@ -8,7 +8,9 @@
 # ========================================
 #
 
-# Load libraries
+# Load Constants
+from Constants import *
+# Load libraries | Tools
 import pandas
 from pandas.tools.plotting import scatter_matrix
 import matplotlib.pyplot as plt
@@ -22,5 +24,3 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
-
-
