@@ -24,3 +24,6 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
+
+# Initialise the dataset
+dataset = pandas.read_csv(url, names=names)
