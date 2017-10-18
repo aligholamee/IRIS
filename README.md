@@ -22,3 +22,11 @@ A Multi-Nominal Classification of Iris Dataset.
 * Scikit-Learn Linear-Discriminant Analayser
 * Scikit-Learn Gaussian Naive-Bayes
 * Scikit-Learn SVC
+
+## Evaluated Algorithms
+* Logistic Regression (**Linear**)
+* Linear Discriminant Analysis (**Linear**)
+* K-Nearest Neighbours (**Non-Linear**)
+* Classification and Regression Tree (**Non-Linear**)
+* Gaussian Naive Bayes (**Non-Linear**)
+* Support Vector Machine (**Non-Linear**)
