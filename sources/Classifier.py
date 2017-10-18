@@ -78,7 +78,7 @@ fig = plt.figure()
 fig.suptitle('Algorithm Comparison')
 ax = fig.add_subplot(111)
 plt.boxplot(results)
-ax.set_xticklables(names)
+ax.set_xticklabels(names)
 plt.show()
 
 
