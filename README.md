@@ -2,7 +2,7 @@
 A Multi-Nominal Classification of Iris Dataset.
 
 <p align="center"> 
-    <img src="">
+    <img src="https://raw.githubusercontent.com/aligholamee/IRIS/master/spectramap/Spectramap_Biplot_Iris_Flower_Data_Set_FULL.jpg">
 </p>
 <p align="center"> 
     Spectramap biplot of Fisher's iris data set
