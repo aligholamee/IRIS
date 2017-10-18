@@ -54,7 +54,7 @@ print(dataset.groupby('class').size())
 splitter_array = dataset.values
 print("\n\n\n\n")
 X = splitter_array[:, 0:4]
-y = splitter_array[:, 4]
+Y = splitter_array[:, 4]
 
 ValidationSize = 0.2
 seed = 7
@@ -71,5 +71,14 @@ for name, model in algo.models:
     names.append(name)
     msg = "%s: %f (%f)" % (name, cv_results.mean(), cv_results.std())
     print(msg)
+
+
+# Display the comparison plots
+fig = plt.figure()
+fig.suptitle('Algorithm Comparison')
+ax = fig.add_subplot(111)
+plt.boxplot(results)
+ax.set_xticklables(names)
+plt.show()
 
 
