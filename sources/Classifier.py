@@ -9,7 +9,7 @@
 #
 
 # Load Constants
-from Constants import *
+import Constants as cc
 # Load libraries | Tools
 import pandas
 from pandas.tools.plotting import scatter_matrix
@@ -26,4 +26,4 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 
 # Initialise the dataset
-dataset = pandas.read_csv(Constants.url, names=Constants.names)
+dataset = pandas.read_csv(cc.iris_url, names = cc.names)
