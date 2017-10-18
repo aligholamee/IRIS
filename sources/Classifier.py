@@ -27,3 +27,10 @@ from sklearn.svm import SVC
 
 # Initialise the dataset
 dataset = pandas.read_csv(cc.iris_url, names = cc.names)
+
+# Get some information of dataset
+print("Data Shape is: " + dataset.Shape)
+
+# Get the first 20 rows of data
+print("Let's take a look at our data" + dataset.Head(20))
+
