@@ -26,4 +26,4 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 
 # Initialise the dataset
-dataset = pandas.read_csv(url, names=names)
+dataset = pandas.read_csv(Constants.url, names=Constants.names)
