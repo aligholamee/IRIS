@@ -81,4 +81,12 @@ plt.boxplot(results)
 ax.set_xticklabels(names)
 plt.show()
 
+# Making predictions
+knn = algo.KNeighborsClassifier()
+knn.fit(X_Train, Y_Train)
+predictions = knn.predict(X_Validation)
+print(accuracy_score(Y_Validation, predictions))
+print(confusion_matrix(Y_Validation, predictions))
+print(classification_report(Y_Validation, predictions))
+
 
