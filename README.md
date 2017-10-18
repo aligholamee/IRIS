@@ -2,7 +2,7 @@
 A Multi-Nominal Classification of Iris Dataset.
 
 <p align="center"> 
-    <img src="https://raw.githubusercontent.com/aligholamee/IRIS/master/spectramap/Spectramap_Biplot_Iris_Flower_Data_Set_FULL.jpg?token=ATsyBjH3CJh_5w4QOkaoQ0_F1GE1Qkubks5Z8JNvwA%3D%3D">
+    <img src="https://raw.githubusercontent.com/aligholamee/IRIS/master/spectramap/Spectramap_Biplot_Iris_Flower_Data_Set_FULL.jpg">
 </p>
 
 <p align="center"> 
@@ -31,3 +31,8 @@ A Multi-Nominal Classification of Iris Dataset.
 * Classification and Regression Tree (**Non-Linear**)
 * Gaussian Naive Bayes (**Non-Linear**)
 * Support Vector Machine (**Non-Linear**)
+
+
+<p align="center"> 
+    <img src="https://raw.githubusercontent.com/aligholamee/IRIS/master/diagrams/Algorithm_Comparison.png">
+</p>
