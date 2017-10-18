@@ -43,5 +43,9 @@ print(dataset.describe())
 print(dataset.groupby('class').size())
 
 # Display the box and whiskers plots
-dataset.plot(kind='box', subplots=True, layout=(2, 2), sharex=False, sharey=False)
-plt.show()
+# dataset.plot(kind='box', subplots=True, layout=(2, 2), sharex=False, sharey=False)
+# plt.show()
+
+# Display the histogram diagram
+dataset.hist()
+plt.show
