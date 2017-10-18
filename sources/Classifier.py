@@ -66,7 +66,7 @@ names = []
 
 for name, model in algo.models:
     kfold = model_selection.KFold(n_splits=10, random_state=seed)
-    cv_results = model_selection.cross_val_score(model, X_Train, Y_Train, cv=kfold, scoring=scoring)
+    cv_results = model_selection.cross_val_score(model, X_Train, Y_Train, cv=kfold, scoring=cc.scoring)
     results.append(cv_results)
     names.append(name)
     msg = "%s: %f (%f)" % (name, cv_results.mean(), cv_results.std())
