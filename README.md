@@ -1,5 +1,5 @@
 # IRIS
-A Multi-Nominal Classification of Iris Dataset.
+A Multi-Nomial Classification of Iris Dataset.
 
 <p align="center"> 
     <img src="https://raw.githubusercontent.com/aligholamee/IRIS/master/spectramap/Spectramap_Biplot_Iris_Flower_Data_Set_FULL.jpg">
